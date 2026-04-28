@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
-    "test": "node test.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
 }
